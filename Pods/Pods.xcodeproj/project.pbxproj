@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0E03728F7F4A6C669130F4C42FE716F6 /* Pods-Viper Demo Login-Viper Demo LoginUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0053BE7F702F5E93ECE458C763A00A6F /* Pods-Viper Demo Login-Viper Demo LoginUITests-dummy.m */; };
+		1B7CDB45E9CF17B9DB1027AB16964650 /* Pods-Viper Demo Login-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B99A0B1CE76B7C09AA6D5CEDAE570FD /* Pods-Viper Demo Login-dummy.m */; };
+		278C4B1EEBC80C63E385FD4A8E1B24AD /* Pods-Viper Demo LoginTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE541B2726649234E1958AB1F9BE15EE /* Pods-Viper Demo LoginTests-dummy.m */; };
+		58BE123563A9DBF76F77EA23C1F1DBEA /* Pods-Viper Demo Login-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2C18E1878CABC582A25FFFD63FAE07 /* Pods-Viper Demo Login-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9682D335E3A343E8828764AF0CE59E5C /* Pods-Viper Demo LoginTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E06C89AC1A4C7E48CDC43FA312E3A1D /* Pods-Viper Demo LoginTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE7645CB3C44F63B319568B51A7CC8BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D7644A27A9260367CD59BBE374A65900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ED3128E0B7D8E205DEFD88D48CBB1037 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FB11A55167E98F161A47F5AD3E64A857 /* Pods-Viper Demo Login-Viper Demo LoginUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8769ECDAFFA31656B60DAE860355964 /* Pods-Viper Demo Login-Viper Demo LoginUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FEE64CDF4CFD22F4C9E8B4E40AC9D9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75AF26C4236A2500D08A1BB8C868C0B9;
+			remoteInfo = "Pods-Viper Demo Login";
+		};
+		69AE7562CFD2E35183122332215C9FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		76270F5FB5C4DA4DCA4A77499A2C1602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0053BE7F702F5E93ECE458C763A00A6F /* Pods-Viper Demo Login-Viper Demo LoginUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Viper Demo Login-Viper Demo LoginUITests-dummy.m"; sourceTree = "<group>"; };
+		01E6ED859DEE69D5902549DB480EA58E /* Pods-Viper Demo Login */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Viper Demo Login"; path = Pods_Viper_Demo_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B504462867802A9D196EA4EFE476070 /* Pods-Viper Demo Login-Viper Demo LoginUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Viper Demo Login-Viper Demo LoginUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B99A0B1CE76B7C09AA6D5CEDAE570FD /* Pods-Viper Demo Login-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Viper Demo Login-dummy.m"; sourceTree = "<group>"; };
+		1A3AD66A31580D3D6FEA42AE345D0BEC /* Pods-Viper Demo Login-Viper Demo LoginUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viper Demo Login-Viper Demo LoginUITests-Info.plist"; sourceTree = "<group>"; };
+		312E076E31D182E00C943ACC59325B92 /* Pods-Viper Demo Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viper Demo Login.debug.xcconfig"; sourceTree = "<group>"; };
+		3B9B9D8C627BEF0B3047F2ECFFB13119 /* Pods-Viper Demo Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viper Demo Login.release.xcconfig"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		469F38685456951F514E9D833D7CB878 /* Pods-Viper Demo Login-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viper Demo Login-Info.plist"; sourceTree = "<group>"; };
+		4E06C89AC1A4C7E48CDC43FA312E3A1D /* Pods-Viper Demo LoginTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Viper Demo LoginTests-umbrella.h"; sourceTree = "<group>"; };
+		4F84010580A3E277DA15EC3320BE3F22 /* Pods-Viper Demo LoginTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viper Demo LoginTests-Info.plist"; sourceTree = "<group>"; };
+		5DCCE69E4927F4DEFBC6D92F48FB67EA /* Pods-Viper Demo Login-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viper Demo Login-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A5DF69B5E179E3F76C2B15C74ADF5E8 /* Pods-Viper Demo Login-Viper Demo LoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viper Demo Login-Viper Demo LoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71410047988A6CE3F742019780D1E59F /* Pods-Viper Demo Login-Viper Demo LoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viper Demo Login-Viper Demo LoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C29EA50FB7C79D8232186F0805D265B /* Pods-Viper Demo Login-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Viper Demo Login-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D0E8CAA642BE9118BFBA9FAC9C3CDD /* Pods-Viper Demo Login-Viper Demo LoginUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Viper Demo Login-Viper Demo LoginUITests"; path = Pods_Viper_Demo_Login_Viper_Demo_LoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8769ECDAFFA31656B60DAE860355964 /* Pods-Viper Demo Login-Viper Demo LoginUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Viper Demo Login-Viper Demo LoginUITests-umbrella.h"; sourceTree = "<group>"; };
+		C1ADE6F01FA986B3A98BE96672E5DD44 /* Pods-Viper Demo LoginTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Viper Demo LoginTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C291BE58589D51E1F54701BBE3C047FD /* Pods-Viper Demo LoginTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Viper Demo LoginTests.modulemap"; sourceTree = "<group>"; };
+		D243B41F1C6A04F50944F90031923F69 /* Pods-Viper Demo LoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viper Demo LoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9DF33EC52F81D514648ACCC4355D193 /* Pods-Viper Demo LoginTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viper Demo LoginTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE541B2726649234E1958AB1F9BE15EE /* Pods-Viper Demo LoginTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Viper Demo LoginTests-dummy.m"; sourceTree = "<group>"; };
+		DFACFCCDE57883E9A59274587A5A4A6A /* Pods-Viper Demo Login-Viper Demo LoginUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Viper Demo Login-Viper Demo LoginUITests.modulemap"; sourceTree = "<group>"; };
+		F4A291EE968C987C9AE0B5EEB35F3118 /* Pods-Viper Demo LoginTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Viper Demo LoginTests"; path = Pods_Viper_Demo_LoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60141D754ACBAFC487345804E656C3B /* Pods-Viper Demo Login-Viper Demo LoginUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Viper Demo Login-Viper Demo LoginUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F83F0BD771F6091CEAA999AEC48B404A /* Pods-Viper Demo Login.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Viper Demo Login.modulemap"; sourceTree = "<group>"; };
+		FD2C18E1878CABC582A25FFFD63FAE07 /* Pods-Viper Demo Login-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Viper Demo Login-umbrella.h"; sourceTree = "<group>"; };
+		FEEF83DDB2566B8B9E1E2C185CCFA04D /* Pods-Viper Demo LoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Viper Demo LoginTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33728E4D11D6C2E64C39F2B3B7DEB394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3128E0B7D8E205DEFD88D48CBB1037 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357A824DE76AAF5520A4997B3C5CE19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7644A27A9260367CD59BBE374A65900 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D36DCF487D8E39012A714A6E55806A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7645CB3C44F63B319568B51A7CC8BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FD5C00DFBEE5841772B6A1F82E0440B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D13FCEDBC646008D4C9C9E119CE2D22 /* Pods-Viper Demo Login */,
+				60C452EBEDD56F04E19C96C0C9818425 /* Pods-Viper Demo Login-Viper Demo LoginUITests */,
+				8345832E24FA24AE8C74EE02D83D775E /* Pods-Viper Demo LoginTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		60C452EBEDD56F04E19C96C0C9818425 /* Pods-Viper Demo Login-Viper Demo LoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFACFCCDE57883E9A59274587A5A4A6A /* Pods-Viper Demo Login-Viper Demo LoginUITests.modulemap */,
+				0B504462867802A9D196EA4EFE476070 /* Pods-Viper Demo Login-Viper Demo LoginUITests-acknowledgements.markdown */,
+				F60141D754ACBAFC487345804E656C3B /* Pods-Viper Demo Login-Viper Demo LoginUITests-acknowledgements.plist */,
+				0053BE7F702F5E93ECE458C763A00A6F /* Pods-Viper Demo Login-Viper Demo LoginUITests-dummy.m */,
+				1A3AD66A31580D3D6FEA42AE345D0BEC /* Pods-Viper Demo Login-Viper Demo LoginUITests-Info.plist */,
+				B8769ECDAFFA31656B60DAE860355964 /* Pods-Viper Demo Login-Viper Demo LoginUITests-umbrella.h */,
+				71410047988A6CE3F742019780D1E59F /* Pods-Viper Demo Login-Viper Demo LoginUITests.debug.xcconfig */,
+				6A5DF69B5E179E3F76C2B15C74ADF5E8 /* Pods-Viper Demo Login-Viper Demo LoginUITests.release.xcconfig */,
+			);
+			name = "Pods-Viper Demo Login-Viper Demo LoginUITests";
+			path = "Target Support Files/Pods-Viper Demo Login-Viper Demo LoginUITests";
+			sourceTree = "<group>";
+		};
+		7D13FCEDBC646008D4C9C9E119CE2D22 /* Pods-Viper Demo Login */ = {
+			isa = PBXGroup;
+			children = (
+				F83F0BD771F6091CEAA999AEC48B404A /* Pods-Viper Demo Login.modulemap */,
+				7C29EA50FB7C79D8232186F0805D265B /* Pods-Viper Demo Login-acknowledgements.markdown */,
+				5DCCE69E4927F4DEFBC6D92F48FB67EA /* Pods-Viper Demo Login-acknowledgements.plist */,
+				0B99A0B1CE76B7C09AA6D5CEDAE570FD /* Pods-Viper Demo Login-dummy.m */,
+				469F38685456951F514E9D833D7CB878 /* Pods-Viper Demo Login-Info.plist */,
+				FD2C18E1878CABC582A25FFFD63FAE07 /* Pods-Viper Demo Login-umbrella.h */,
+				312E076E31D182E00C943ACC59325B92 /* Pods-Viper Demo Login.debug.xcconfig */,
+				3B9B9D8C627BEF0B3047F2ECFFB13119 /* Pods-Viper Demo Login.release.xcconfig */,
+			);
+			name = "Pods-Viper Demo Login";
+			path = "Target Support Files/Pods-Viper Demo Login";
+			sourceTree = "<group>";
+		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		8345832E24FA24AE8C74EE02D83D775E /* Pods-Viper Demo LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				C291BE58589D51E1F54701BBE3C047FD /* Pods-Viper Demo LoginTests.modulemap */,
+				C1ADE6F01FA986B3A98BE96672E5DD44 /* Pods-Viper Demo LoginTests-acknowledgements.markdown */,
+				D9DF33EC52F81D514648ACCC4355D193 /* Pods-Viper Demo LoginTests-acknowledgements.plist */,
+				DE541B2726649234E1958AB1F9BE15EE /* Pods-Viper Demo LoginTests-dummy.m */,
+				4F84010580A3E277DA15EC3320BE3F22 /* Pods-Viper Demo LoginTests-Info.plist */,
+				4E06C89AC1A4C7E48CDC43FA312E3A1D /* Pods-Viper Demo LoginTests-umbrella.h */,
+				D243B41F1C6A04F50944F90031923F69 /* Pods-Viper Demo LoginTests.debug.xcconfig */,
+				FEEF83DDB2566B8B9E1E2C185CCFA04D /* Pods-Viper Demo LoginTests.release.xcconfig */,
+			);
+			name = "Pods-Viper Demo LoginTests";
+			path = "Target Support Files/Pods-Viper Demo LoginTests";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B061C6830843EED7061AFDE3A4ACC5A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E6ED859DEE69D5902549DB480EA58E /* Pods-Viper Demo Login */,
+				A0D0E8CAA642BE9118BFBA9FAC9C3CDD /* Pods-Viper Demo Login-Viper Demo LoginUITests */,
+				F4A291EE968C987C9AE0B5EEB35F3118 /* Pods-Viper Demo LoginTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				B061C6830843EED7061AFDE3A4ACC5A2 /* Products */,
+				5FD5C00DFBEE5841772B6A1F82E0440B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D6A4150B7B9CB01CB15D45B62EB12A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB11A55167E98F161A47F5AD3E64A857 /* Pods-Viper Demo Login-Viper Demo LoginUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9790C1634EFBE5557A136D6F9E750525 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BE123563A9DBF76F77EA23C1F1DBEA /* Pods-Viper Demo Login-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2192E342349EA15DA59919A48D18E3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9682D335E3A343E8828764AF0CE59E5C /* Pods-Viper Demo LoginTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		75AF26C4236A2500D08A1BB8C868C0B9 /* Pods-Viper Demo Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF1F424D023108DAF42EB3926CC2EA4 /* Build configuration list for PBXNativeTarget "Pods-Viper Demo Login" */;
+			buildPhases = (
+				9790C1634EFBE5557A136D6F9E750525 /* Headers */,
+				3C85BE6FB6BD2B8C3A713864E0DA4757 /* Sources */,
+				33728E4D11D6C2E64C39F2B3B7DEB394 /* Frameworks */,
+				3F3012F0342E04BB487F00E1AA658705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370909902EB071EF8C8C17628EA8014D /* PBXTargetDependency */,
+			);
+			name = "Pods-Viper Demo Login";
+			productName = Pods_Viper_Demo_Login;
+			productReference = 01E6ED859DEE69D5902549DB480EA58E /* Pods-Viper Demo Login */;
+			productType = "com.apple.product-type.framework";
+		};
+		772B9EF8631B63702C73CE9DD8D57ACF /* Pods-Viper Demo LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75830ADFC0FE657B0ABBCA9FD28A3C4 /* Build configuration list for PBXNativeTarget "Pods-Viper Demo LoginTests" */;
+			buildPhases = (
+				C2192E342349EA15DA59919A48D18E3F /* Headers */,
+				BF47F298E258B622437C199A73B87045 /* Sources */,
+				357A824DE76AAF5520A4997B3C5CE19C /* Frameworks */,
+				44E9057F9FC29ADC2BD02B9ED63BBF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0A4CAA2CFD17ABA812CC2CEA0B11132 /* PBXTargetDependency */,
+			);
+			name = "Pods-Viper Demo LoginTests";
+			productName = Pods_Viper_Demo_LoginTests;
+			productReference = F4A291EE968C987C9AE0B5EEB35F3118 /* Pods-Viper Demo LoginTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF11B11556C430D5429F4B13AE8AB14C /* Pods-Viper Demo Login-Viper Demo LoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B0FA0E3FE83A90B5504B20A510AEDB /* Build configuration list for PBXNativeTarget "Pods-Viper Demo Login-Viper Demo LoginUITests" */;
+			buildPhases = (
+				0D6A4150B7B9CB01CB15D45B62EB12A5 /* Headers */,
+				49689BB4C565866B30CDECCE4BA67748 /* Sources */,
+				A9D36DCF487D8E39012A714A6E55806A /* Frameworks */,
+				4B51228053F06C70B169E47891EB0E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCBBA36845C663A2A8B39BCB3D2D841A /* PBXTargetDependency */,
+			);
+			name = "Pods-Viper Demo Login-Viper Demo LoginUITests";
+			productName = Pods_Viper_Demo_Login_Viper_Demo_LoginUITests;
+			productReference = A0D0E8CAA642BE9118BFBA9FAC9C3CDD /* Pods-Viper Demo Login-Viper Demo LoginUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B061C6830843EED7061AFDE3A4ACC5A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75AF26C4236A2500D08A1BB8C868C0B9 /* Pods-Viper Demo Login */,
+				DF11B11556C430D5429F4B13AE8AB14C /* Pods-Viper Demo Login-Viper Demo LoginUITests */,
+				772B9EF8631B63702C73CE9DD8D57ACF /* Pods-Viper Demo LoginTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3012F0342E04BB487F00E1AA658705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E9057F9FC29ADC2BD02B9ED63BBF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B51228053F06C70B169E47891EB0E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C85BE6FB6BD2B8C3A713864E0DA4757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7CDB45E9CF17B9DB1027AB16964650 /* Pods-Viper Demo Login-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49689BB4C565866B30CDECCE4BA67748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E03728F7F4A6C669130F4C42FE716F6 /* Pods-Viper Demo Login-Viper Demo LoginUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF47F298E258B622437C199A73B87045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278C4B1EEBC80C63E385FD4A8E1B24AD /* Pods-Viper Demo LoginTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		370909902EB071EF8C8C17628EA8014D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 69AE7562CFD2E35183122332215C9FFD /* PBXContainerItemProxy */;
+		};
+		BCBBA36845C663A2A8B39BCB3D2D841A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 76270F5FB5C4DA4DCA4A77499A2C1602 /* PBXContainerItemProxy */;
+		};
+		D0A4CAA2CFD17ABA812CC2CEA0B11132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Viper Demo Login";
+			target = 75AF26C4236A2500D08A1BB8C868C0B9 /* Pods-Viper Demo Login */;
+			targetProxy = 4FEE64CDF4CFD22F4C9E8B4E40AC9D9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26EA5A9600226D2B7D8D25152A304F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		438D3D64354D3CFB9DA487414EA6DE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312E076E31D182E00C943ACC59325B92 /* Pods-Viper Demo Login.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Viper Demo Login/Pods-Viper Demo Login-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Viper Demo Login/Pods-Viper Demo Login.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A816D7CF3B2D397414F46231A5F70FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5DF69B5E179E3F76C2B15C74ADF5E8 /* Pods-Viper Demo Login-Viper Demo LoginUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Viper Demo Login-Viper Demo LoginUITests/Pods-Viper Demo Login-Viper Demo LoginUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Viper Demo Login-Viper Demo LoginUITests/Pods-Viper Demo Login-Viper Demo LoginUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		87BF33AABE29C041F4C7FDA17DFA5F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9B9D8C627BEF0B3047F2ECFFB13119 /* Pods-Viper Demo Login.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Viper Demo Login/Pods-Viper Demo Login-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Viper Demo Login/Pods-Viper Demo Login.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C52D2F33C7885AC9248C1A2504AA884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEF83DDB2566B8B9E1E2C185CCFA04D /* Pods-Viper Demo LoginTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Viper Demo LoginTests/Pods-Viper Demo LoginTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Viper Demo LoginTests/Pods-Viper Demo LoginTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2A4553DFE788EEE35E8C12BF71B7E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D243B41F1C6A04F50944F90031923F69 /* Pods-Viper Demo LoginTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Viper Demo LoginTests/Pods-Viper Demo LoginTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Viper Demo LoginTests/Pods-Viper Demo LoginTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9E1A48A750B946DE9877594C6E735E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5EC39981ABF3678201C4C2413ACD29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71410047988A6CE3F742019780D1E59F /* Pods-Viper Demo Login-Viper Demo LoginUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Viper Demo Login-Viper Demo LoginUITests/Pods-Viper Demo Login-Viper Demo LoginUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Viper Demo Login-Viper Demo LoginUITests/Pods-Viper Demo Login-Viper Demo LoginUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B0FA0E3FE83A90B5504B20A510AEDB /* Build configuration list for PBXNativeTarget "Pods-Viper Demo Login-Viper Demo LoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5EC39981ABF3678201C4C2413ACD29E /* Debug */,
+				5A816D7CF3B2D397414F46231A5F70FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75830ADFC0FE657B0ABBCA9FD28A3C4 /* Build configuration list for PBXNativeTarget "Pods-Viper Demo LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A4553DFE788EEE35E8C12BF71B7E76 /* Debug */,
+				9C52D2F33C7885AC9248C1A2504AA884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF1F424D023108DAF42EB3926CC2EA4 /* Build configuration list for PBXNativeTarget "Pods-Viper Demo Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438D3D64354D3CFB9DA487414EA6DE59 /* Debug */,
+				87BF33AABE29C041F4C7FDA17DFA5F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E1A48A750B946DE9877594C6E735E4 /* Debug */,
+				26EA5A9600226D2B7D8D25152A304F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
